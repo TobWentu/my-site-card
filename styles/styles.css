@@ -31,13 +31,3 @@ body {
     border-radius: 100px;
     padding: 5px;
 }
-
-@media screen and (max-width: 767px) {
-    .ava img {
-        height: 200px;  /* Уменьшаем высоту для мобильных */
-    }
-
-    .github img {
-        height: 50px;  /* Уменьшаем высоту для мобильных */
-    }
-}
