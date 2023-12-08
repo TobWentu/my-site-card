@@ -16,6 +16,7 @@ body {
 }
 
 .ava img {
+    max-width: 100%;
     margin-left: -3%;
     height: 300px;
     width: auto;
@@ -23,9 +24,20 @@ body {
 }
 
 .github img {
+    max-width: 100%;
     margin-top: 35px;
     height: 80px;
     width: auto;
     border-radius: 100px;
     padding: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .ava img {
+        height: 200px;  /* Уменьшаем высоту для мобильных */
+    }
+
+    .github img {
+        height: 50px;  /* Уменьшаем высоту для мобильных */
+    }
 }
